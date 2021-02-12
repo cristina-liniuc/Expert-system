@@ -13,7 +13,8 @@ This is a prolog expert system that through forward chaining find out the creatu
 
 # Setup
 * download this repo
-* install swi-prolog
+* buid the docker image `docker build -t image_name .`
+* run the docker image `docker run -it image_name`
 
 # Launch
 Launch swi-prolog, the shell.pl script and then load the knowledge base expert.pl
@@ -22,7 +23,7 @@ $ swipl
 :| [shell].
 :| go.
 :> load.
-:> 'expert.pl'.
+:> 'path_to_file/expert.pl'.
 ```
 This will lauch the expert system. In order to detect a creature, type `consult.` and answer to questions. If you want to know more about specific character, type `iknow.` and type its' name from the proposed list. Type `know.`, if you want to read about your last found creature.
 
