@@ -27,5 +27,7 @@ $ swipl
 This will lauch the expert system. In order to detect a creature, type `consult.` and answer to questions. If you want to know more about specific character, type `iknow.` and type its' name from the proposed list. Type `know.`, if you want to read about your last found creature.
 
 # Examples 
-
+![alt text](https://github.com/cristina-liniuc/Expert-system/blob/main/images/consult.png "consult feature")
+![alt text](https://github.com/cristina-liniuc/Expert-system/blob/main/images/known.png "known feature")
+![alt text](https://github.com/cristina-liniuc/Expert-system/blob/main/images/iknow.png "iknow feature")
 
